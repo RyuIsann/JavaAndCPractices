@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/*
+* Code in C to solve the classic programming problem 'N Queens' by
+* iteration. Enter an integer, N, and we can get all feasible solves
+* for this problem.
+*/
 int all_solve = 0;
 
 int is_attack(int colomn[], int row[], int cross_up[], int cross_down[], int x, int y, int len){
