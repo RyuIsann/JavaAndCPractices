@@ -2,7 +2,7 @@
 #include<math.h>
 
 /*C code for finding the nth 'palindrome integer', which means this integer can be written
-* reversely with no value changes. 
+* reversely with no value changes. For example, the 11st 'palindrome integer' is 111.
 */
 int main(){
     long long int k;
