@@ -1,5 +1,10 @@
 #include<stdio.h>
-
+/*Code in c to solve 'snow skiing' que fromstion.
+* We use a metric to represent the hill.
+* By using iteration algorithm, we can find the longest path from 'the
+* top of the hill', which is represented by the biggest number, to 
+* 'the foot of the hill', which is represented by the smallest number.
+*/
 int n, m;
 int a[100][100], memo[100][100];
 int max(int a, int b, int c, int d){
