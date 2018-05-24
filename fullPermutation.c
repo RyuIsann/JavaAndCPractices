@@ -1,7 +1,7 @@
 /*We can use this method to solve full permutation problem.
 * Firstly, we enter an integer, n, which is the number of integers to be arranged
 * in the first row. Secondly, enter the n integers. Then, We can get all possible 
-* permutations in lexicographical order.
+* permutations in lexicographical order. This is a sophisticated use of iteration.
 */
 
 #include<stdio.h>
